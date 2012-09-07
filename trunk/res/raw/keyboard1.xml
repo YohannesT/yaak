@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard rows="2" cols="4" bgcolor="#FFFFFF">
+	<painter method="border" fontcolor="#0000FF" bgcolor="#0000FF" 
+	    bordercolor="#FF0000" bordersize="6.0f"/>
+	<scanner method="column" timeoutrounds="-1" scantime="1000" repeattime="0"/>
+	<tcp enable="1" port="4444"/>
+	<rows>
+		<row>
+			<button fontColor="#00FF00">
+				<icon>power.png</icon>
+				<text>p1</text>
+				<action>@quit</action>
+			</button>
+			<button bgColor="#FF00FF">
+				<icon>volup.png</icon>
+				<action>@intent:</action>
+			</button>
+			<button>
+				<icon>voldown.png</icon>
+				<action>@load:</action>
+			</button>
+			<button>
+				<icon>voldown.png</icon>
+				<action>@load:</action>
+			</button>
+		</row>
+		<row>
+			<button>
+				<text>CH++</text>
+				<action>ch++</action>
+			</button>
+			<button>
+				<text>ch--</text>
+				<action>ch--</action>
+			</button>
+			<button>
+				<icon>mute.png</icon>
+				<text>mute</text>
+				<action>mute</action>
+			</button>
+			<button>
+				<icon>voldown.png</icon>
+				<action>@load:</action>
+			</button>
+		</row>
+	</rows>
+</keyboard>
