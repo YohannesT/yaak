@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YAAK</string>
+    <string name="ip">Wlan IP Adresse anzeigen</string>
+    <string name="close">Schließen</string>
+    <string name="notfound">Die Datei /sdcard/yaak/default.xml wurde nicht gefunden</string>
+
+</resources>
