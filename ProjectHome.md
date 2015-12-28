@@ -1,0 +1,1 @@
+Yaak allows to create flexible scannable keyboards for mobile devices running Android.
